@@ -1,3 +1,3 @@
 export function hello(): void {
-    alert("hello");
+  alert("hello");
 }

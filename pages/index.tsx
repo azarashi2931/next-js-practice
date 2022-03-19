@@ -14,7 +14,7 @@ const Index: NextPage = () => {
       <form>
         <input value={text} onChange={(e) => setText(e.target.value)} />
       </form>
-	  <Link href="./second">second</Link>
+      <Link href="./second">second</Link>
     </>
   );
 };

@@ -7,7 +7,7 @@ const Second: NextPage = () => {
     <>
       <h1>Hello Next.js</h1>
       <button onClick={() => hello()}>hello</button>
-      <Link href="/" >index</Link>
+      <Link href="/">index</Link>
     </>
   );
 };
