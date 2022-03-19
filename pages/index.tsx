@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 
 const Index: NextPage = () => {
-  return <button>Hello Next.js</button>;
+  return <button onClick={() => alert("clicked")}>Hello Next.js</button>;
 };
 
 export default Index;
