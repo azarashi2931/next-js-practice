@@ -1,6 +1,10 @@
 import { NextPage } from "next";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, FunctionComponent } from "react";
+
+const TestComponent: FunctionComponent = () => {
+  return <h2>Test Component</h2>;
+};
 
 const Index: NextPage = () => {
   const [count, setCount] = useState<number>(0);
@@ -15,6 +19,7 @@ const Index: NextPage = () => {
         <input value={text} onChange={(e) => setText(e.target.value)} />
       </form>
       <Link href="./second">second</Link>
+      <TestComponent />
     </>
   );
 };
