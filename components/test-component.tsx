@@ -1,5 +1,9 @@
 import { FunctionComponent } from "react";
 
-export const TestComponent: FunctionComponent = () => {
-  return <h2>Test Component</h2>;
+type Props = {
+  text: string;
+};
+
+export const TestComponent: FunctionComponent<Props> = (props) => {
+  return <h2>{props.text}</h2>;
 };

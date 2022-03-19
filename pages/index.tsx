@@ -16,7 +16,7 @@ const Index: NextPage = () => {
         <input value={text} onChange={(e) => setText(e.target.value)} />
       </form>
       <Link href="./second">second</Link>
-      <TestComponent />
+      <TestComponent text="Test Componment" />
     </>
   );
 };
