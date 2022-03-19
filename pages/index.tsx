@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Link from "next/link";
 import { useState } from "react";
 
 const Index: NextPage = () => {
@@ -13,6 +14,7 @@ const Index: NextPage = () => {
       <form>
         <input value={text} onChange={(e) => setText(e.target.value)} />
       </form>
+	  <Link href="./second">second</Link>
     </>
   );
 };
