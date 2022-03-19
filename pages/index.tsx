@@ -1,10 +1,7 @@
 import { NextPage } from "next";
 import Link from "next/link";
-import { useState, FunctionComponent } from "react";
-
-const TestComponent: FunctionComponent = () => {
-  return <h2>Test Component</h2>;
-};
+import { useState } from "react";
+import { TestComponent } from "../components/test-component";
 
 const Index: NextPage = () => {
   const [count, setCount] = useState<number>(0);
