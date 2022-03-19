@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/azarashi2931/next-js-practice/issues"
   },
-  "homepage": "https://github.com/azarashi2931/next-js-practice#readme"
+  "homepage": "https://github.com/azarashi2931/next-js-practice#readme",
+  "dependencies": {
+    "next": "^12.1.0"
+  }
 }
